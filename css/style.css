@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden{
+  display : none;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.55;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+form {
+  top : 50%;
+  left: auto;
+  
+}
